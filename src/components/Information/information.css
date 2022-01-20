@@ -1,0 +1,12 @@
+.LeftIcon {
+    margin-left: 8.5px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.LeftIcon:hover{
+    border: 2px solid #A1D9EF;
+}
