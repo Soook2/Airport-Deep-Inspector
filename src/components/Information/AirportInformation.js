@@ -206,13 +206,13 @@ export default class AirportInformation extends Component {
 
         return (
             <>
-                <div style={{margin:"50px"}}>
+                <div style={{margin:"3.5%"}}>
                     <p style={{fontSize:"30px"}}>활주로 세부 사항 입력</p>
                     <p style={{fontSize:"15px", marginTop:"-10px"}}>활주로 세부 사항 정보를 입력, 저장합니다.</p>
                     <hr/>
                 </div>
 
-                    <div style={{marginLeft:"180px", float:"left", marginTop:"50px"}}>
+                    <div style={{marginLeft:"10%", float:"left", marginTop:"3.2%"}}>
                         <p style={{fontSize:"20px"}}>공항명칭</p>
                         <p style={{fontSize:"20px", marginTop:"30px"}}>활주로 유형</p>
                         <p style={{fontSize:"20px", marginTop:"30px"}}>활주로 길이</p>
@@ -222,7 +222,7 @@ export default class AirportInformation extends Component {
                         <p style={{fontSize:"20px", marginTop:"30px"}}>활주로 표면</p>
                     </div>
                     <div style={{float:"left"}}>
-                        <input style={{width: "250px", marginLeft:"50px", border:"1px solid black", borderRadius:"3px", height:"30px", marginTop:"50px"}}></input>
+                        <input style={{width: "250px", marginLeft:"50px", marginTop:"50px"}}></input>
                         <br/>
                         <input style={{width: "250px",marginTop:"33px", marginLeft:"50px"}}></input>
                         <br/>
@@ -240,7 +240,7 @@ export default class AirportInformation extends Component {
                         <br/>
                         <input style={{width: "250px",marginTop:"33px", marginLeft:"50px"}}></input>
                         <br/>
-                        <button style={{width:"200px", height:"50px", marginTop:"50px", border:"0px", borderRadius:"5px", backgroundColor:"#2AAEE6", color:"white", fontSize:"20px", cursor:"pointer"}}>
+                        <button style={{width:"200px", height:"50px", marginTop:"50px", border:"0px", borderRadius:"5px", backgroundColor:"rgb(90, 110, 233)", color:"white", fontSize:"20px", cursor:"pointer"}}>
                             저장하기
                         </button>
                     </div>

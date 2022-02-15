@@ -19,3 +19,42 @@
 .startBtn:hover{
     background-color: #A1D9EF;
 }
+
+.LeftMenuBar {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    color: #919191;
+    line-height: 50px;
+    padding-left: 18px;
+}
+
+.LeftMenuBar:hover {
+    background-color: rgb(174, 183, 238);
+    font-size: 15px;
+    color: #2F3134;
+    line-height: 50px;
+    padding-left: 18px;
+    cursor: pointer;
+}
+
+.DropDown {
+    width: 150px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: -1px;
+    border: 0px;
+}
+
+.DropDown:hover {
+    background-color: rgb(225, 226,230);
+    color:rgb(174, 183, 238);
+}
+
+.DropDownItem{
+    background-color: rgb(225, 226,230);
+}
+
+.DropDownItem:hover{
+    background-color: rgb(174, 183, 238);
+}
